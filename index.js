@@ -33,7 +33,7 @@ if ( sexo == 'm' && contribuicao >=35 || sexo == 'f' && contribuicao>=30){
 */
 //DESAFIO 03 DO MODULO INTRODUÇÃO A PROGRAMAÇÃO WEB
 // CONSTRUÇÃO E IMPRESSÃO DE OBJETOS  
-
+/*
 const empresa ={
     nome: "Rocketseat",
     cor: "Roxo",
@@ -44,3 +44,22 @@ const empresa ={
     }
 }
 console.log(`A empresa ${empresa.nome}, está localizada na ${empresa.endereco.rua}, ${empresa.endereco.numero}`)
+*/
+//DESAFIO 03 DO MODULO INTRODUÇÃO A PROGRAMAÇÃO WEB
+// VETORES E OBJETOS
+
+const programador = {
+        nome: "Guilherme Ribeiro",
+        idade: 21,
+        tecnologia: [
+            {
+                nometec: "JavaScript",
+                especialidade: "Web"
+            },
+            {
+                nometec: "C++",
+                especialidade: "Desktop"
+            }
+        ]
+    }
+console.log(`O programador ${programador.nome} tem ${programador.idade} anos e usa a tecnologia ${programador.tecnologia[0].nometec} com especialidade em ${programador.tecnologia[0].especialidade}`)
