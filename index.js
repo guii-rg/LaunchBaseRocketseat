@@ -1,8 +1,8 @@
 //DESAFIO 01 DO MODULO INTRODUÇÃO A PROGRAMAÇÃO WEB
 //CALCULADORA DE IMC
-const nome = "Guilherme Ribeiro";
+/*const nome = "Guilherme Ribeiro";
 const peso = 90;
-const altura = 1.69
+const altura = 1.69;
 
 const imc = (peso /(altura*altura))
 
@@ -11,3 +11,24 @@ if(imc>=30) {
 }else{
     console.log(`${nome}, Você não está acima do peso`)
 }
+*/
+
+//DESAFIO 02 DO MODULO INTRODUÇÃO A PROGRAMAÇÃO WEB
+// CALCULO DE APOSENTADORIA 
+
+const nome="Guilherme Ribeiro";
+const sexo="m";
+const idade=95;
+const contribuicao=30;
+
+if ( sexo == 'm' && contribuicao >=35 || sexo == 'f' && contribuicao>=30){
+    if (sexo == 'm' && contribuicao + idade >=95 || sexo == 'f' && contribuicao + idade >=85){
+        console.log(`${nome}, você já pode se aposentar`)
+    } else {
+            console.log(`${nome}, você ainda não pode se aposentar`)
+    } 
+} else{
+        console.log(`${nome}, você ainda não pode se aposentar`)
+    } 
+  
+
