@@ -16,7 +16,7 @@ if(imc>=30) {
 //DESAFIO 02 DO MODULO INTRODUÇÃO A PROGRAMAÇÃO WEB
 // CALCULO DE APOSENTADORIA 
 
-const nome="Guilherme Ribeiro";
+/*const nome="Guilherme Ribeiro";
 const sexo="m";
 const idade=95;
 const contribuicao=30;
@@ -30,5 +30,17 @@ if ( sexo == 'm' && contribuicao >=35 || sexo == 'f' && contribuicao>=30){
 } else{
         console.log(`${nome}, você ainda não pode se aposentar`)
     } 
-  
+*/
+//DESAFIO 03 DO MODULO INTRODUÇÃO A PROGRAMAÇÃO WEB
+// CONSTRUÇÃO E IMPRESSÃO DE OBJETOS  
 
+const empresa ={
+    nome: "Rocketseat",
+    cor: "Roxo",
+    foco: "Programação",
+    endereco: {
+        rua: "Rua Guilherme Gembala",
+        numero: 260
+    }
+}
+console.log(`A empresa ${empresa.nome}, está localizada na ${empresa.endereco.rua}, ${empresa.endereco.numero}`)
